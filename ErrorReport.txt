@@ -1,0 +1,7 @@
+1. testCheckin() - failure: checkin method does not work; expected true but was false
+
+2. testCheckOutTwice() - failure: cannot checkout twice of the same book; expected false but was true
+
+3. testSearchPublisher() - IndexOutOfBoundsException: Index 0 out of bounds for length 0
+
+4. testRemoveAfterCheckout() - failure: should not be able to remove after checkout; expected false but was true
